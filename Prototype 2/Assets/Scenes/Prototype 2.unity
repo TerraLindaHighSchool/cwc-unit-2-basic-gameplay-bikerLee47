@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657916, g: 0.49641317, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657975, g: 0.4964143, b: 0.57481766, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -211,24 +211,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 50.000004, y: -60.000004, z: 0}
---- !u!1 &350105469 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8107326456747694583, guid: 27da47e508b69864fb619b1593e43875,
-    type: 3}
-  m_PrefabInstance: {fileID: 8107326456407570058}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &350105471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 350105469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d5613afb9216ff4396b4c509cb49a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &425805626
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,24 +530,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1411509953 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3338030082428951866, guid: ff0db62d649b7ec48b4d31cdb06eb863,
-    type: 3}
-  m_PrefabInstance: {fileID: 3338030083836163067}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1411509955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1411509953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d5613afb9216ff4396b4c509cb49a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,24 +608,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590138454}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1820055851 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2466944482992757718, guid: c176472b510acaf468e228dbd9cab16e,
-    type: 3}
-  m_PrefabInstance: {fileID: 2466944482518450941}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1820055853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1820055851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d5613afb9216ff4396b4c509cb49a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1968594653
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -821,11 +767,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dog_Pug_01
       objectReference: {fileID: 0}
-    - target: {fileID: 5524197495454353448, guid: c176472b510acaf468e228dbd9cab16e,
-        type: 3}
-      propertyPath: speed
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c176472b510acaf468e228dbd9cab16e, type: 3}
 --- !u!1001 &3338030083836163067
@@ -895,11 +836,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Moose_02
       objectReference: {fileID: 0}
-    - target: {fileID: 8408968762307206714, guid: ff0db62d649b7ec48b4d31cdb06eb863,
-        type: 3}
-      propertyPath: speed
-      value: 15
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff0db62d649b7ec48b4d31cdb06eb863, type: 3}
 --- !u!1001 &4672852064291716380
@@ -912,7 +848,7 @@ PrefabInstance:
     - target: {fileID: 4672185517691894728, guid: 06135f3181f327b489c97e1508a9c037,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.7
+      value: -0.07
       objectReference: {fileID: 0}
     - target: {fileID: 4672185517691894728, guid: 06135f3181f327b489c97e1508a9c037,
         type: 3}
@@ -978,11 +914,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3451387572904501680, guid: 27da47e508b69864fb619b1593e43875,
-        type: 3}
-      propertyPath: speed
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 8107326456747694583, guid: 27da47e508b69864fb619b1593e43875,
         type: 3}
       propertyPath: m_Name
